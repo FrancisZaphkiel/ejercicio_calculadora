@@ -53,10 +53,5 @@ public class Main {
         } while (opcion != 5);
 
         sc.close();
-
-        // Evita warnings de variables no usadas en esta base inicial.
-        if (a == b) {
-            System.out.print("");
-        }
     }
 }
